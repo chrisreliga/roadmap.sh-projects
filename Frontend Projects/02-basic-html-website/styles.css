@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #000;
+}
+
+/* Navbar Menu */
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  background: url(/images/halloween.png) no-repeat center/cover transparent;
+  height: 6rem;
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.projects-container {
+  margin-top: 10rem;
+  margin-left: 6rem;
+  width: 30%;
+}
+
+.projects-container h2 {
+  font-size: 4rem;
+}
+
+.project-card {
+  margin-top: 2rem;
+}
+
+.project-card h3 {
+  font-size: 2rem;
+}
+
+.project-description,
+.project-tech-stack {
+  font-size: 1.5rem;
+}
+
+.project-card span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+  margin-top: 2rem;
+}
+
+/* Contact Page */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+form {
+  width: 20%;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+form label {
+  font-size: 2rem;
+}
+
+form input {
+  width: 50%;
+}
+
+form input[id='text'] {
+  height: 7rem;
+  padding: 0 10px;
+}
+
+.form-container button {
+  width: 25%;
+  align-self: center;
+}
