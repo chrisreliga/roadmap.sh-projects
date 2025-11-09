@@ -5,4 +5,4 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 ## 🧩 Projects List
 
 - [Basic HTML Website](#)
-- [Personal Portfolio](#)
+- [Personal Portfolio](https://github.com/chrisreliga/03-personal-portfolio)
