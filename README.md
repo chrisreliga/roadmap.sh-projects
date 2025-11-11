@@ -6,3 +6,4 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 - [Basic HTML Website](https://github.com/chrisreliga/roadmap.sh-projects/tree/main/Frontend%20Projects/02-basic-html-website)
 - [Personal Portfolio](https://github.com/chrisreliga/03-personal-portfolio)
+- [Changelog Component](https://roadmap.sh/projects/changelog-component)
