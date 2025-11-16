@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Accessible Form UI</title>
+  </head>
+  <body>
+    <form>
+      <div class="form-inputs">
+        <!------ Name Input ------>
+        <div class="name-input">
+          <label for="name-input">Full Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name-input"
+            placeholder="What should we call you?"
+            class="input"
+          />
+        </div>
+        <!------ Email Input ------>
+        <div class="email-input">
+          <label for="email-input">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email-input"
+            placeholder="demo@email.com"
+            class="input"
+          />
+        </div>
+        <!------ Password Input ------>
+        <div class="password-input">
+          <label for="password-input">Enter Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password-input"
+            placeholder="xxxxxxxx"
+            class="input"
+          />
+        </div>
+        <!------ Confirm Password Input------>
+        <div class="confirm-password-input">
+          <label for="confirm-password-input">Confirm Password</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirm-password-input"
+            placeholder="xxxxxxxx"
+            class="input"
+          />
+        </div>
+        <!------ Submit Button ------>
+        <button type="submit" id="submit-button">Update Profile</button>
+      </div>
+      <!------ Completion Progress ------>
+      <div class="form-progress-log">
+        <div class="progress-circle">65%</div>
+        <h2>Profile Completeness</h2>
+        <div class="checklist">
+          <p>Create Account</p>
+          <p>Update Roadmap Progress</p>
+          <p>Setup Public Profile</p>
+          <p>Complete your First Project</p>
+          <p>Invite our Friends</p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

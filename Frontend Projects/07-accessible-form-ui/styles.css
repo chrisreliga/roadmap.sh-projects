@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Robot', Arial, Helvetica, sans-serif;
+  background-color: #151515;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  width: 65%;
+  max-width: 950px;
+  margin: 5rem auto;
+  border: 1px solid #606060;
+  border-radius: 1rem;
+  background-color: #303030;
+}
+
+.form-inputs {
+  width: 30rem;
+}
+
+label {
+  color: #f6f6f6;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+input {
+  width: 30rem;
+  height: 4rem;
+  margin-top: 0.75rem;
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  border: 1px solid #606060;
+  border-radius: 1rem;
+  background-color: #444444;
+  font-size: 1.75rem;
+  color: #f6f6f6;
+}
+
+input:focus {
+  outline: none;
+  border-color: orange;
+  box-shadow: 0 0 5px orange;
+}
+
+.input {
+  display: flex;
+}
+
+button {
+  width: 100%;
+  padding: 1.25rem 2rem;
+  font-size: 2rem;
+  color: #f6f6f6;
+  background-color: #000000;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+.form-progress-log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.progress-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  padding: 8rem;
+  font-size: 4rem;
+  color: #f6f6f6;
+  border: 5px solid #f6f6f6;
+  border-radius: 50%;
+}
+
+.form-progress-log h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  color: #f6f6f6;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.checklist {
+  text-align: left;
+  color: #000;
+  background-color: #e5e5e59e;
+  font-size: 1.75rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.checklist p {
+  padding: 1rem;
+  position: relative;
+}
+
+.checklist p:nth-child(-n + 3) {
+  color: #f6f6f6; /* grey text */
+  text-decoration: line-through;
+  opacity: 0.6;
+}
