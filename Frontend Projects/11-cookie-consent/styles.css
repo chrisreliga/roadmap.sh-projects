@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+header {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.header-menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main h3 {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.cookie-consent {
+  background-color: #000;
+  color: #fff;
+  width: 35%;
+  max-width: 252px;
+  padding: 2rem;
+  border: none;
+  border-radius: 12px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: none;
+}
+
+.cookie-consent-show {
+  display: block;
+}
+
+.cookie-img {
+  font-size: 4rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.cookie-consent-text {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+.accept-cookies-btn {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 1.25rem 4rem;
+  font-size: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+  cursor: pointer;
+}
