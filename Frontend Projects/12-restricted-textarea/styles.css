@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #e9e9ff;
+}
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin: 10rem auto;
+  background-color: #fff;
+}
+
+textarea {
+  height: 12rem;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  resize: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+span {
+  align-self: flex-end;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.char-limit-reached-border {
+  border: 1px solid red;
+}
+
+.char-limit-reached-text {
+  color: red;
+}
